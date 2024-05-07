@@ -1,0 +1,13 @@
+one,two=map(int,input().split())
+timer=int(input())
+mp=timer%60
+hp=int((timer-mp)/60)
+if((two+mp)<60):
+    one+=hp
+    two+=mp
+else:
+    one+=hp+1
+    two=two+mp-60
+if(one>23):
+    one-=24
+print(one,two)
