@@ -1,5 +1,5 @@
-#include <stdio.h>
 //https://edu-coding.tistory.com/268
+#include <stdio.h>
 #include <string.h>
 int main(){
     char key[27];
