@@ -16,6 +16,7 @@ int main(){
         else
             printf("%d\n",pop(hieap,&len));
     }
+    return 0;
 }
 
 void insert(int *target,int value,int *len){
